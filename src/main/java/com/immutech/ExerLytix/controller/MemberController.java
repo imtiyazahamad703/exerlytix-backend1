@@ -87,7 +87,7 @@ public class MemberController {
 
 				int userId = member.getId();
 				// 2️⃣ Send user_id to Python server
-				String pythonServerUrl = "http://localhost:5000/set_user";
+				String pythonServerUrl = "https://exerlytix-aimodel.onrender.com/set_user";
 				Map<String, Integer> body = Map.of("user_id", userId);
 				restTemplate.postForObject(pythonServerUrl, body, String.class);
 
