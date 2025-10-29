@@ -10,10 +10,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.immutech</groupId>
-	<artifactId>ExerLytix</artifactId>
+	<artifactId>exerlytix-backend1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ExerLytix</name>
-	<description>this is springBoot Login and Registration page</description>
+	<name>exerlytix-backend1</name>
+	<description>This is exerlytix AI Fitness Trainer Complete Backend</description>
 	<url/>
 	<licenses>
 		<license/>
